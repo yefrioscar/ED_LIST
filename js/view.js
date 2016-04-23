@@ -1,11 +1,12 @@
+'use strict';
 
-function printTask(name){
+function printTask(name) {
   var taskLi = document.createElement('li');
   taskLi.classList.add('task-item');
   var taskCheckbox = document.createElement('input');
   taskCheckbox.type = "checkbox";
   var taskEl = document.createElement('span');
-  taskEl.setAttribute('contenteditable','');
+  taskEl.setAttribute('contenteditable', '');
   taskEl.textContent = name;
   var taskRemove = document.createElement('a');
   taskRemove.textContent = 'x';
