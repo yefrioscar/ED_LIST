@@ -17,4 +17,5 @@ function printTask(name) {
   taskList.appendChild(taskLi);
   editTask();
   completeTask();
+  removeTask();
 }

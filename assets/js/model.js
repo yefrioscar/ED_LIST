@@ -13,9 +13,7 @@ class Task {
       this.isComplete = true;
     }
 
-    remove(){
 
-    }
 }
 
 class List {
@@ -26,5 +24,9 @@ class List {
 
   addTask(task){
     this.tasks.push(task);
+  }
+
+  removeTask(i){
+    this.tasks.splice(i,1);
   }
 }
